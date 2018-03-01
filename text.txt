@@ -1,0 +1,10 @@
+[smk.net]
+path = /home/aku
+browseable = yes
+writeable = yes
+guest ok = no
+public = no
+read only = no
+security = user
+
+smbpasswd -a aku
